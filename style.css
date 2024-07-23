@@ -1,3 +1,38 @@
+*{
+    margin: 0;
+    height: 0;
+}
+
 .cabeçalho{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.cabeçalho-lista{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho-lista-item{
+    margin: 0 0 0 20px;
+}
+
+.cabeçalho-lista-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-alternavel{
+    display: none;
+}
+
+.menu-icone{
+    width: 25px;
 }
