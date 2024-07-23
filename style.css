@@ -44,6 +44,7 @@ body{
     transition: 0.4;
 }
 
+@media (max-width: 768px){
 .cabeçalho-lista{
     display: none;
     flex-direction: column;
@@ -69,4 +70,5 @@ body{
 
 .menu-icone{
     display: flex;
+}
 }
