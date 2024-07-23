@@ -19,7 +19,7 @@ body{
 }
 
 .cabeçalho-lista-item{
-    margin: 0 0 0 20px;
+    margin left: 20px;
 }
 
 .cabeçalho-lista-item a {
@@ -33,7 +33,9 @@ body{
 }
 
 .menu-icone{
-    width: 25px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 
 .menu-icone .bar{
@@ -56,11 +58,8 @@ body{
 }
 
 .cabeçalho-lista-item{
-    margin: 0;
-}
-
-.cabeçalho-lista-item a{
-    padding: 15px;
+    margin: 15px 0;
+    font-size: 24px;
 }
 
 .menu-alternavel:checked + .menu-icone + .cabeçalho-lista{
