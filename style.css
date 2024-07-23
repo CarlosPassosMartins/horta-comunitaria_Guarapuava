@@ -1,8 +1,7 @@
-*{
+body{
     margin: 0;
-    height: 0;
+    font-family: Arial, sans-serif;
 }
-
 .cabeçalho{
     display: flex;
     justify-content: space-between;
@@ -35,4 +34,39 @@
 
 .menu-icone{
     width: 25px;
+}
+
+.menu-icone .bar{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4;
+}
+
+.cabeçalho-lista{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.cabeçalho-lista-item{
+    margin: 15px 0;
+}
+
+.cabeçalho-lista-item a{
+    padding: 15px;
+}
+
+.menu-alternavel:checked + .menu-icone + .cabeçalho-lista{
+    display: flex;
+    width: auto;
+}
+
+.menu-icone{
+    display: flex;
 }
