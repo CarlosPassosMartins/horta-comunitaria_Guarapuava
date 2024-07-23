@@ -62,7 +62,7 @@ body{
 }
 
 .cabeçalho-lista-item{
-    margin: 5px 0;
+    margin:0 0 0 5px;
     font-size: 24px;
 }
 
