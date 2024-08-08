@@ -26,6 +26,6 @@
 
 @media (min-width: 768px){
     .div-rodape{
-        justify-content: none;
+        justify-content: flex-start;
     }
 }
