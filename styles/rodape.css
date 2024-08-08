@@ -8,5 +8,11 @@
 .div-rodape{
     background-color: var(--cor-de-fundo-escuro);
     display: flex;
-    
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo-rodape{
+    width: 60px;
 }
