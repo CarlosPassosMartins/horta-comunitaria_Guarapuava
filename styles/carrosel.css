@@ -55,11 +55,11 @@
 }
 
 #item-2:checked ~ .carrosel-interno{
-    transform: translateX(33.3333%);
+    transform: translateX(-33.3333%);
 }
 
 #item-3:checked ~ .carrosel-interno{
-    transform: translateX(66.6666%);
+    transform: translateX(-66.6666%);
 }
 
 #item-1 ~ .carrosel-controles label[for="item-1"],
