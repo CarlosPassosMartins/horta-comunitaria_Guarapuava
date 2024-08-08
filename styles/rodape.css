@@ -1,4 +1,12 @@
 .voltarTop{
     position: relative;
+    display: flex;
     width: 50px;
+    justify-content: center;
+}
+
+.div-rodape{
+    background-color: var(--cor-de-fundo-escuro);
+    display: flex;
+    
 }
