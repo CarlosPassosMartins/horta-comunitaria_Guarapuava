@@ -1,77 +1,16 @@
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-.cabeçalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    position: relative;
+@import url("styles/header.css");
+@import url("styles/holla.css");
+
+:root {
+    --cor-de-fundo-escuro: #333;
+    --cor-fundo-verde: #dff0d8;
+    --branco: #FFFFFF;
 }
 
-.cabeçalho-lista{
-    display: flex;
-    list-style-type: none;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.cabeçalho-lista-item{
-    margin-left: 20px;
-}
-
-.cabeçalho-lista-item a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.menu-alternavel{
-    display: none;
-}
-
-.menu-icone{
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.menu-icone .bar{
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
-    transition: 0.4;
-}
-
-@media (max-width: 768px){
-.cabeçalho-lista{
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #333;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-
-.cabeçalho-lista-item{
-    margin: 0;
-}
-
-.cabeçalho-lista-item{
-    padding: 15px;
-    font-size: 24px;
-}
-
-.menu-alternavel:checked + .menu-icone + .cabeçalho-lista{
-    display: flex;
-    width: auto;
-}
-
-.menu-icone{
-    display: flex;
-}
-}
+    background-color: #f0f0f0;
+  }
+  

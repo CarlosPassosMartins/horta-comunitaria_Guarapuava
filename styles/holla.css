@@ -1,0 +1,71 @@
+.holla{
+    background-color: var(--cor-fundo-verde);
+    padding: 15px;
+}
+
+.text-pri-sesao{
+    margin: 0;
+    font-size: 20px;
+}
+
+.titulo-pri-sesao{
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 15px 0;
+    margin: 0;
+    display: flex;
+    color: #3a7d44;
+}
+
+.titulo-pri-sesao-pc{
+    display: none;
+}
+
+.div-pri-sesao{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-pri-sesao{
+    width: 150px;
+}
+
+@media (min-width: 768px) {
+    .titulo-pri-sesao{
+        display: none;
+    }
+
+    .div-div-pri-sesao{
+        margin: 50px 0;
+        width: 800px;
+    }
+
+    .titulo-pri-sesao-pc{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: flex;
+        color: #3a7d44;
+    }
+
+    .img-pri-sesao{
+        width: 150px;
+    }
+
+    .titulo-pri-sesao-pc{
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    .text-pri-sesao{
+        margin: 15px 80px;
+    }
+
+    .holla{
+        padding: 15px 50px 0px 50px;
+    }
+
+
+  }
+  
