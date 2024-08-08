@@ -8,7 +8,7 @@
     background-color: var(--cor-de-fundo-escuro);
     display: flex;
     color: var(--branco);
-    flex-direction: row;
+    flex-direction: center;
     align-items: center;
     padding: 0 15px;
 }
@@ -21,4 +21,10 @@
 .rodape a{
     display: flex;
     justify-content: center;
+}
+
+@media (min-width: 768px){
+    .div-rodape{
+        flex-direction: row;
+    }
 }
