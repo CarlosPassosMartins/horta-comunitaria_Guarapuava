@@ -1,0 +1,14 @@
+.rodape{
+    display: flex;
+    width: 100%;
+}
+
+.voutar{
+    width: 25px;
+    justify-content: center;
+}
+
+.div-rodape{
+    display: flex;
+    justify-content: start;
+}
