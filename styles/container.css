@@ -25,6 +25,7 @@
     }
 
     .div-textos{
+        text-align: center;
         width: 500px;
     }
 }
