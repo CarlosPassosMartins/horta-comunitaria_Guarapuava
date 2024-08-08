@@ -3,12 +3,17 @@
     width: 100%;
 }
 
-.voutar{
+.voltar{
     width: 25px;
     justify-content: center;
 }
 
 .div-rodape{
+    background-color: var(--cor-de-fundo-escuro);
     display: flex;
     justify-content: start;
+}
+
+.logo-rodape{
+    width: 25px;
 }
