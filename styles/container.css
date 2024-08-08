@@ -1,10 +1,5 @@
 .container{
-    display: flex;
     margin: 10px;
-    align-items: center;
-    justify-content: space-between;
+
 }
 
-.titulo-container{
-    align-items: center;
-}
