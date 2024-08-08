@@ -14,5 +14,6 @@
 }
 
 .texto-container{
-    margin: 0 15px;
+    width: 800px;
+    height: auto;
 }
