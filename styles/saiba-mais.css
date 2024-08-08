@@ -28,6 +28,7 @@
 .faq-answer {
     display: none;
     padding: 10px;
+    background-color: var(--branco);
     border: 1px solid #ddd;
     border-top: none;
 }
