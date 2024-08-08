@@ -1,6 +1,6 @@
 .voltarTop{
     display: flex;
-    width: 50px;
+    width: 60px;
     justify-content: center;
 }
 
@@ -14,5 +14,10 @@
 }
 
 .logo-rodape{
-    width: 60px;
+    width: 50px;
+}
+
+.rodape a{
+    display: flex;
+    justify-content: center;
 }
