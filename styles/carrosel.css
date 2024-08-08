@@ -69,6 +69,10 @@
 }
 
 @media (min-width: 768px){
+    .carrosel-inv{
+        order: 1;
+    }
+
     .carrosel{
         max-width: 500px;
         height: 350px;
