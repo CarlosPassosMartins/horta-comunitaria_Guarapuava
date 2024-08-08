@@ -18,3 +18,9 @@
 .texto-container{
  margin: 15px;
 }
+
+@media (min-width: 768px){
+    .container{
+        display: flex;
+    }
+}
