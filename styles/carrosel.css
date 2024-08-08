@@ -62,9 +62,27 @@
     transform: translateX(-66.6666%);
 }
 
+#item-4:checked ~ .carrosel-interno{
+    transform: translateX(0%);
+}
+
+#item-5:checked ~ .carrosel-interno{
+    transform: translateX(-33.3333%);
+}
+
+#item-6:checked ~ .carrosel-interno{
+    transform: translateX(-66.6666%);
+}
+
 #item-1 ~ .carrosel-controles label[for="item-1"],
 #item-2 ~ .carrosel-controles label[for="item-2"],
 #item-3 ~ .carrosel-controles label[for="item-3"]{
+    background-color: white;
+}
+
+#item-1 ~ .carrosel-controles label[for="item-4"],
+#item-2 ~ .carrosel-controles label[for="item-5"],
+#item-3 ~ .carrosel-controles label[for="item-6"]{
     background-color: white;
 }
 
