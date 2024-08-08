@@ -1,5 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/holla.css");
+@import url("styles/carrosel.css");
+@import url("styles/container.css");
 
 :root {
     --cor-de-fundo-escuro: #333;
