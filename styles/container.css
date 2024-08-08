@@ -23,4 +23,9 @@
     .container{
         display: flex;
     }
+
+    .div-textos{
+        width: 500px;
+        display: flex;
+    }
 }
