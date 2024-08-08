@@ -67,3 +67,11 @@
 #item-3 ~ .carrosel-controles label[for="item-3"]{
     background-color: white;
 }
+
+@media (min-width: 768px){
+    .carrosel{
+        max-width: 600px;
+        height: 400px;
+    }
+
+}
