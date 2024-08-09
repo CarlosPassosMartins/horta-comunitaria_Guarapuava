@@ -23,8 +23,9 @@
     flex-direction: column;
 }
 
-.apoiadores h1{
-    margin: 0;
+.apoiadores h1 p{
+    margin: 3px;
+    text-align: center;
 }
 
 .apoiadores img{
