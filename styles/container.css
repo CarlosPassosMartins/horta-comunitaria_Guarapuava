@@ -33,7 +33,7 @@
 
 .apoiadores img{
     border-radius: 25px;
-    width: 800px;
+    width: 300px;
 }
 
 @media (min-width: 768px){
@@ -54,5 +54,10 @@
     .div-textos-inv{
         order: 2;
     }
+
+    .apoiadores img{
+        width: 800px;
+    }
+    
 
 }
