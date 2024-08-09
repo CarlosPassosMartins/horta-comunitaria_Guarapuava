@@ -33,6 +33,7 @@
 
 .apoiadores img{
     border-radius: 25px;
+    justify-content: center;
     max-width: 800px;
     width: 80%;
 }
