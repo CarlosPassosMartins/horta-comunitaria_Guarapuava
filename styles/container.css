@@ -23,8 +23,11 @@
     flex-direction: column;
 }
 
-.apoiadores h1 p{
-    margin: 3px;
+.apoiadores h1 {
+    margin: 0px;
+}
+
+.apoiadores p {
     text-align: center;
 }
 
