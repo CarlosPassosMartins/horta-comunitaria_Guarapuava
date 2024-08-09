@@ -23,6 +23,10 @@
     flex-direction: column;
 }
 
+.apoiadores img{
+    width: 800px;
+}
+
 @media (min-width: 768px){
     .rst{
         display: flex;
