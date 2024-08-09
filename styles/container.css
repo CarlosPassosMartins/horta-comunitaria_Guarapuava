@@ -59,4 +59,10 @@
         order: 2;
     }
 
+    .apoiadores p {
+        text-align: center;
+        width: 800px;
+    }
+    
+
 }
