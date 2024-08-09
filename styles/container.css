@@ -19,6 +19,10 @@
  margin: 15px;
 }
 
+.apoiadores{
+    flex-direction: column;
+}
+
 @media (min-width: 768px){
     .rst{
         display: flex;
