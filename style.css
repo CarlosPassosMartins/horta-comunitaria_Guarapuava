@@ -4,6 +4,7 @@
 @import url("styles/container.css");
 @import url("styles/rodape.css");
 @import url("styles/saiba-mais.css");
+@import url("styles/sesão-de-comentario.css");
 
 :root {
     --cor-de-fundo-escuro: #333;
