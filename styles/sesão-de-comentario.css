@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 768px){
+    .comentario-img{
+        margin: 0;
+    }
     .comentario{
         flex-direction: column;
     }
