@@ -32,3 +32,12 @@
     font-size: 1em;
     color: #555;
 }
+
+@media (max-width: 768px){
+    .comentario{
+        flex-direction: column;
+    }
+    .comentario-conteudo{
+        text-align: center;
+    }
+}
