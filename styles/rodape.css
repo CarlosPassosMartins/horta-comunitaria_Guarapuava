@@ -24,6 +24,11 @@
     justify-content: center;
 }
 
+.criador-site{
+    display: flex;
+    justify-content: end;
+}
+
 @media (min-width: 768px){
     .div-rodape{
         justify-content: flex-start;
